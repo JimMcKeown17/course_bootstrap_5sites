@@ -1,0 +1,9 @@
+.fa-star{
+    color: gold;
+}
+
+@media (min-width: 800px){
+    .container{
+        width: 800px;
+    }
+}

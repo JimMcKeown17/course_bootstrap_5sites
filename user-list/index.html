@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>User List</title>
+  </head>
+  <!-- <body class="bg-dark p-5"> -->
+    <header>
+      <div class="mb-5">
+        <div class="container mt-5">
+          <div class="d-flex justify-content-end">
+            <div class="btn-group">
+              <button
+                class="btn btn-secondary btn-sm"
+                data-bs-theme-value="dark"
+              >
+                Dark
+              </button>
+              <button
+                class="btn btn-secondary btn-sm"
+                data-bs-theme-value="light"
+              >
+                Light
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container m-3 bg-dark text-light">
+      <!-- Light Mode, Dark Mode -->
+      <div class="row justify-content-end">
+        <div class="col-auto">
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+              <input
+                type="checkbox"
+                name="options"
+                id="light"
+                autocomplete="off"
+                checked
+              />Light
+            </label>
+            <label class="btn btn-secondary">
+              <input
+                type="radio"
+                name="options"
+                id="dark"
+                autocomplete="off"
+                checked
+              />Dark
+            </label>
+          </div>
+        </div>
+      </div>
+      <h2>Users</h2>
+      <!-- Search & Links -->
+      <div class="row m-5 d-flex flex-row justify-content-between">
+        <div class="div col-auto">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search Users"
+              aria-label="Search Users"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+        </div>
+        <div class="col-auto ml-auto">
+          <div class="links">
+            <a href="" class="bg-text-light text-decoration-none m-1"
+              >Reputation</a
+            >
+            <a
+              href=""
+              class="bg-text-light btn btn-primary text-decoration-none m-1"
+              >New Users</a
+            >
+            <a href="" class="bg-text-light text-decoration-none m-1"
+              >Editors</a
+            >
+
+            <a href="" class="bg-text-light text-decoration-none m-1"
+              >Moderators</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- User Cards -->
+      <!-- First Row -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card bg-dark text-light border-light m-1 p-2">
+            <div class="row align-items-center">
+              <div class="col-auto">
+                <img
+                  src="https://media.istockphoto.com/id/1252210017/photo/smiling-girl-playing-on-the-swing.webp?b=1&s=170667a&w=0&k=20&c=H2jRnAeVS2ZRHPhBPdgfsYuVl1x-lMkqNm4iBYf5K8E="
+                  alt=""
+                  class="rounded-circle"
+                  style="height: 100px; width: 100px"
+                />
+              </div>
+              <div class="col">
+                <h4>John Doe</h4>
+                <p>Troy, MI</p>
+                <span class="badge rounded-pill bg-primary">Nature</span>
+                <span class="badge rounded-pill bg-primary">Travel</span>
+                <span class="badge rounded-pill bg-primary">Sports</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-dark text-light border-light m-1 p-2">
+            <div class="row align-items-center">
+              <div class="col-auto">
+                <img
+                  src="https://media.istockphoto.com/id/1252210017/photo/smiling-girl-playing-on-the-swing.webp?b=1&s=170667a&w=0&k=20&c=H2jRnAeVS2ZRHPhBPdgfsYuVl1x-lMkqNm4iBYf5K8E="
+                  alt=""
+                  class="rounded-circle"
+                  style="height: 100px; width: 100px"
+                />
+              </div>
+              <div class="col">
+                <h4>John Doe</h4>
+                <p>Troy, MI</p>
+                <span class="badge rounded-pill bg-primary">Nature</span>
+                <span class="badge rounded-pill bg-primary">Travel</span>
+                <span class="badge rounded-pill bg-primary">Sports</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-dark text-light border-light m-1 p-2">
+            <div class="row align-items-center">
+              <div class="col-auto">
+                <img
+                  src="https://media.istockphoto.com/id/1252210017/photo/smiling-girl-playing-on-the-swing.webp?b=1&s=170667a&w=0&k=20&c=H2jRnAeVS2ZRHPhBPdgfsYuVl1x-lMkqNm4iBYf5K8E="
+                  alt=""
+                  class="rounded-circle"
+                  style="height: 100px; width: 100px"
+                />
+              </div>
+              <div class="col">
+                <h4>John Doe</h4>
+                <p>Troy, MI</p>
+                <span class="badge rounded-pill bg-primary">Nature</span>
+                <span class="badge rounded-pill bg-primary">Travel</span>
+                <span class="badge rounded-pill bg-primary">Sports</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Second Row -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card bg-dark text-light border-light m-1 p-2">
+            <div class="row align-items-center">
+              <div class="col-auto">
+                <img
+                  src="https://media.istockphoto.com/id/1252210017/photo/smiling-girl-playing-on-the-swing.webp?b=1&s=170667a&w=0&k=20&c=H2jRnAeVS2ZRHPhBPdgfsYuVl1x-lMkqNm4iBYf5K8E="
+                  alt=""
+                  class="rounded-circle"
+                  style="height: 100px; width: 100px"
+                />
+              </div>
+              <div class="col">
+                <h4>John Doe</h4>
+                <p>Troy, MI</p>
+                <span class="badge rounded-pill bg-primary">Nature</span>
+                <span class="badge rounded-pill bg-primary">Travel</span>
+                <span class="badge rounded-pill bg-primary">Sports</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-dark text-light border-light m-1 p-2">
+            <div class="row align-items-center">
+              <div class="col-auto">
+                <img
+                  src="https://media.istockphoto.com/id/1252210017/photo/smiling-girl-playing-on-the-swing.webp?b=1&s=170667a&w=0&k=20&c=H2jRnAeVS2ZRHPhBPdgfsYuVl1x-lMkqNm4iBYf5K8E="
+                  alt=""
+                  class="rounded-circle"
+                  style="height: 100px; width: 100px"
+                />
+              </div>
+              <div class="col">
+                <h4>John Doe</h4>
+                <p>Troy, MI</p>
+                <span class="badge rounded-pill bg-primary">Nature</span>
+                <span class="badge rounded-pill bg-primary">Travel</span>
+                <span class="badge rounded-pill bg-primary">Sports</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-dark text-light border-light m-1 p-2">
+            <div class="row align-items-center">
+              <div class="col-auto">
+                <img
+                  src="https://media.istockphoto.com/id/1252210017/photo/smiling-girl-playing-on-the-swing.webp?b=1&s=170667a&w=0&k=20&c=H2jRnAeVS2ZRHPhBPdgfsYuVl1x-lMkqNm4iBYf5K8E="
+                  alt=""
+                  class="rounded-circle"
+                  style="height: 100px; width: 100px"
+                />
+              </div>
+              <div class="col">
+                <h4>John Doe</h4>
+                <p>Troy, MI</p>
+                <span class="badge rounded-pill bg-primary">Nature</span>
+                <span class="badge rounded-pill bg-primary">Travel</span>
+                <span class="badge rounded-pill bg-primary">Sports</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Bottom Buttons -->
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-dark">Previous</button>
+        <button type="button" class="btn btn-dark active">1</button>
+        <button type="button" class="btn btn-dark">2</button>
+        <button type="button" class="btn btn-dark">3</button>
+        <button type="button" class="btn btn-dark">Next</button>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/darkmodetoggle.js"></script>
+  </body>
+</html>
